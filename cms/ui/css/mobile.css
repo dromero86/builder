@@ -1,0 +1,178 @@
+@media only screen and (max-device-height : 768px) and (max-device-width : 1024px)
+{
+    .login
+    {
+        top: 10px !important;
+    }
+
+    .login .webix_win_head>.webix_view>.webix_template
+    {
+        line-height: 40px;
+    }
+
+    .login .btn button
+    {
+        line-height: normal;
+    }
+
+    [view_id="app.page"],
+    [view_id="app.header"],
+    [view_id='app.mainbar'] 
+    {
+        width:  100% !important; 
+    }
+
+    [view_id='app.mainbar'] 
+    {
+        background: #2196F3 !important;  
+    }
+
+
+    [view_id='app.mainbar'] .main_logo
+    {
+        background: transparent;
+        margin-top: 4px !important; 
+        margin-left: 0px  !important; 
+            height: 56px !important;
+            line-height: 56px;
+    }
+
+    [view_id='app.mainbar'] .main_logo div center
+    {
+        color      : white;
+        text-align : left;
+        line-height: 53px;
+        font-size  : 20px;
+    }
+
+    [view_id='app.mainbar'] .webix_scroll_cont { 
+        display: flex;
+    }
+
+    .main_logo .webix_template
+    {
+        padding: 0 !important; 
+    }
+
+
+    [view_id="_sidebar"] .webix_win_content .webix_win_body .webix_list .webix_scroll_cont .webix_list_item
+    {
+        line-height: 55px;
+        border-color: transparent;
+    }
+
+    .prop-list 
+    {
+        border:0; 
+        border-bottom: 1px solid #e9ebeb; 
+        padding: 10px 0;
+    }
+
+    .prop-list .image
+    {
+        text-align: center; 
+        margin:auto;
+    }
+
+    .prop-list .image img
+    {
+        height: 49px; 
+        width: 49px; 
+        text-align: center; 
+        margin:auto; 
+        border-radius: 49px;
+    }
+
+    .prop-list .icono
+    {
+        color:#ddd;
+    }
+
+    .prop-list .titulo
+    {
+         font-size     : 95%; 
+         overflow      : hidden;  
+         word-wrap     : break-word; 
+         text-overflow : ellipsis; 
+         white-space   : nowrap;
+         color         : rgba(0, 0, 0, 0.8);
+    }
+
+    .prop-list .extra
+    {
+        font-size: 10px;
+            color: rgba(0, 0, 0, 0.6);
+    }
+
+    .prop-list .offline
+    {
+        opacity: 0.2;
+    }
+
+    .android-list .webix_scroll_cont .webix_list_item 
+    {
+        padding: 0;
+        line-height: normal; 
+        border-bottom: none;
+    }
+
+    .prop-list .extra-space
+    {
+        padding: 5px 0;
+    }
+
+    .logout .message div { 
+        text-align: justify;
+    }
+
+
+
+    .focus-input
+    {
+        position   : absolute;
+        top        : 0; 
+        left       : 0;
+        right      : 0;
+        bottom     : 0;
+        width      : 100% !important;
+        height     : 100% !important;
+        margin-left: 0 !important;
+        margin-top : 0px !important; 
+        background : rgba(0,0,0,.6) !important;
+        border-top-right-radius: 0px !important;
+        border-top-left-radius : 0px !important; 
+    }
+
+    .focus-input .webix_el_box
+    {
+        width     : 100% !important; 
+        background: white;
+    }
+
+    .focus-input .webix_inp_top_label 
+    {
+        background: #2196F3;
+        color     : white !important;
+    }
+
+    .focus-input .webix_el_box input
+    {
+        width: 100% !important;
+    }
+
+    .scroll-active
+    {
+        position: inherit !important;
+    }
+
+    .scroll-active .webix_scroll_cont
+    {
+        transform: none  !important; 
+    }
+
+
+    .webix_tab_more_icon .webix_icon
+    {
+        color: white;
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"contacto" : 
+	{
+		"app"     : "ROMA",
+		"table"   : "site_contacto",
+		"fields"  : ["email", "nombre", "localidad", "tel", "addr", "msg", "comunicar"],
+		"subject" : "Solicitud de contacto",
+		"template": "ui/views/_mail_contacto.php",
+		"upload"  : { "folder" : "./ui/uploads/cv/" , "key":"upload", "allow": "TYPE_IMAGES" },
+		"to"      : "dromero@estudioarbol.com",
+		"redir"	  : "#gracias-por-contactarse",
+		"debug"   : false
+	}, 

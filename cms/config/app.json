@@ -1,0 +1,31 @@
+{
+	"name"    : "BUILDER",
+	"jsonp"   : false,
+	"domain"  : "",
+    "preview" : "", 
+    "session" :
+    {
+        "enable" : true,
+        "login"  : "request-login"  ,
+        "check"  : "request-online" ,
+        "logout" : "request-logout" ,
+        "key"    : "builder.app.session" 
+    },
+
+    "menu":
+    [
+
+    ],
+    "mobile":
+    [  
+        { "id":"mobile.propiedades_view" , "value":"Propiedades"          , "icon": "home"}  
+    ],
+    "options":
+    [ 
+        { "id": "sys.widget.logout"      , "name":"Salir"         , "icon" : "power-off"} 
+    ],
+    "mobile_options":
+    [ 
+        { "id": "mobile.logout"      , "name":"Salir"         , "icon" : "power-off"} 
+    ]
+}

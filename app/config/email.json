@@ -1,0 +1,15 @@
+{
+	"default"	   :
+	{
+		"useragent" : "Microsoft Office Outlook 12.0"	,
+		"protocol"	: "smtp" 							,
+		"mailtype"	: "html"							,
+		"charset"	: "utf-8" 							,
+		"wordwrap"	: true  							,
+		"smtp_host"	: "mail.neumaticosroma.com.ar" 		,
+		"smtp_user" : "sistema@neumaticosroma.com.ar"	,
+		"smtp_pass"	: "rom987" 						,
+		"contacto"	: "ventas@romaneumaticos.com.ar"	,
+		"nombre"    : "ROMA"
+	}
+}

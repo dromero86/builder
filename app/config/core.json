@@ -1,0 +1,21 @@
+{
+	"loader":
+	[
+		{"module":"Parser"			,"library":true, "path":"app\/vendor\/Parser"			,"name":"parser"	 },
+		{"module":"Skeleton"		,"library":true, "path":"app\/vendor\/Skeleton"			,"name":"view"		 },
+		{"module":"database"		,"library":true, "path":"app\/vendor\/database"			,"name":"db"		 },
+		{"module":"Dataset"			,"library":true, "path":"app\/vendor\/Dataset"			,"name":"data"		 },
+		{"module":"database_result"	,"library":true, "path":"app\/vendor\/database_result"						 },
+		{"module":"Telepatia"		,"library":true, "path":"app\/vendor\/Telepatia"		,"name":"session"    },
+		{"module":"input"			,"library":true, "path":"app\/vendor\/input"								 },
+		{"module":"Email"			,"library":true, "path":"app\/vendor\/Email"			,"name":"email"  	 },
+		{"module":"upload"			,"library":true, "path":"app\/vendor\/upload"                                },
+		{"module":"sqlist"			,"library":true, "path":"app\/library\/sqlist"		 					 	 },
+		{"module":"app\/vendor\/database_helper"												 , "helper":true },
+		{"module":"app\/model\/halcon"														     , "helper":true },
+		{"module":"app\/model\/mod_admin"														 , "helper":true }
+	],
+	"debug" : true,
+	"error" : "On" ,
+	"leak"  : "100M"
+}

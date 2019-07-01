@@ -1,0 +1,131 @@
+.chooser
+{
+    font-family: 'Roboto', sans-serif ;
+    -webkit-font-smoothing:antialiased;
+    background-color: #2196F3;
+}
+
+.chooser .webix_view
+{
+    background-color: transparent ;
+}
+
+.chooser .webix_dd_drag_column, 
+.chooser .webix_ss_header, 
+.chooser .webix_ss_header TD, 
+.chooser .webix_ss_vscroll_header
+{
+    background-color: transparent ;
+}
+
+.chooser  .chooser-header-label 
+{
+    color: white;
+}
+
+.chooser  .chooser-header-label div{
+    padding-left: 10px;
+}
+
+.chooser  .chooser-header-icon
+{
+    background-color: #2f6ea0;
+}
+
+.chooser  .chooser-header-icon .webix_el_box
+{
+    padding: 0;
+}
+
+.chooser  .chooser-header-icon .webix_el_box .webix_img_btn
+{
+    margin: auto;
+    text-align: center;
+}
+
+.chooser  .chooser-header-icon .webix_el_box .webix_img_btn .webix_icon_btn 
+{
+    color: white;
+}
+
+.chooser .webix_tree,
+.chooser .webix_dtable
+{
+    background-color: white;
+}
+
+.chooser .webix_img_btn:hover, 
+.chooser .webix_img_btn_top:hover 
+{
+    background-color: transparent;
+}
+
+.chooser .webix_el_button button
+{
+    border-radius: 2px;
+}
+
+.chooser .webix_layout_toolbar.webix_toolbar .webix_img_btn:hover, 
+.chooser .webix_layout_toolbar.webix_toolbar .webix_img_btn_top:hover
+{
+    background-color: transparent;
+}
+
+.chooser .webix_layout_toolbar.webix_toolbar .webix_img_btn
+{
+    margin: auto;
+    text-align: center;
+}
+
+
+.chooser .webix_layout_toolbar.webix_toolbar .webix_img_btn:active,
+.chooser .webix_layout_toolbar.webix_toolbar .webix_img_btn:focus
+{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.chooser .webix_el_text input
+{
+    border-radius: 2px;
+}
+
+.chooser .btn button 
+{
+    background: #ff4081;
+    border-radius: 2px;
+    border: 1px solid #ff4081;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);   
+}
+
+
+.chooser .cancel button 
+{
+    background: #2196F3;
+    border-radius: 2px;
+    border: 1px solid #2196F3;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);   
+}
+
+.chooser .chooser-footer
+{
+    background-color: #f8f8f8;
+}
+
+.chooser .webix_ss_header td {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.chooser .webix_layout_toolbar.webix_toolbar input[type=text]
+{
+    font-size: 12px;
+}

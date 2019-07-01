@@ -1,0 +1,8 @@
+{
+	"Telepatia":
+	{
+		"table"		: "session"	,
+		"app"		: "LIBERTAD" 	,
+		"timeout"	: 60
+	}
+}

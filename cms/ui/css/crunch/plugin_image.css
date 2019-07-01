@@ -1,0 +1,17 @@
+.css_plugin_image .webix_el_box
+{
+    padding: 0;
+}
+
+.css_plugin_image .webixtype_base
+{
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+} 
+
+
+.css_plugin_image .label_image
+{
+    font-size: 12px;
+}

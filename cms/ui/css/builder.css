@@ -1,0 +1,200 @@
+.builder-logo .webix_template
+{
+    padding: 0px;
+}
+
+.builder-tree-viewjson .webix_selected
+{
+    background: linear-gradient(90deg,#f19144,#ec4267);
+    border-radius: 2px;
+}
+
+.builder-tree-viewjson table
+{
+    color: #5a5a5a;
+}
+
+.builder-tree-viewjson .webix_selected table
+{
+    color: white;
+}
+
+[webix_ai_id="app.sidenav"]
+{
+    background: #fcfcfc;
+    border-bottom: none;
+}
+
+[webix_ai_id="app.sidenav"] .webix_accordionitem_label
+{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif ;
+    -webkit-font-smoothing:antialiased;
+    color: #fcfcfc;
+        line-height: 22px;
+}
+
+[webix_ai_id="app.sidenav"] .webix_accordionitem_button
+{
+    color      : #c1c1c1 !important;
+    line-height: 22px !important;
+    height     : 22px !important;
+    font-size  : 18px !important;
+    width      : 10px  !important;
+}
+
+
+[webix_ai_id="app.sidenav.pages"]
+{
+    background: #e0e0e0;
+    border-bottom: none;
+}
+
+[webix_ai_id="app.sidenav.pages"] .webix_accordionitem_label
+{
+    color: #adabab;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+[webix_ai_id="app.sidenav.pages"] .webix_accordionitem_button
+{
+    color: #adabab !important;
+}
+
+.builder-tree-viewjson
+{
+    background: #f7f7f7;
+}
+
+.form-view .webix_el_tabbar
+{
+    height: auto !important;
+}
+
+.form-view .webix_all_tabs {
+    background: linear-gradient(90deg,#f19144,#ec4267);
+}
+
+.form-view .webix_item_tab.webix_selected {
+    background: #0000000a;
+}
+
+[view_id="_preview_tab"] iframe
+{
+    transform: scale(0.85);
+}
+
+/*context menu*/
+
+.builder-context
+{
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+    border-radius: 2px;
+}
+
+.builder-context .webix_win_content
+{
+    padding: 0 !important;
+}
+
+
+.builder-context .webix_list_item span
+{
+    font-size     : 15px;
+    text-transform: none;
+    font-weight   : 400;
+    line-height   : 48px;
+    font-family: 'Roboto', sans-serif ;
+    -webkit-font-smoothing:antialiased;
+}
+
+.builder-context .webix_list_item
+{
+    color: rgba(0, 0, 0, 0.87);
+    font-stretch: 100%;
+    letter-spacing: 0.15px;
+    text-size-adjust: 100%;
+    word-spacing: 0px;
+}
+
+
+/**/
+
+.builder-modal
+{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+
+.builder-modal .webix_layout_toolbar.webix_toolbar
+{
+    background: #2196F3;
+    color:white;
+    box-shadow: none;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    font-weight: 400;
+    text-align: left; 
+        line-height: 70px;
+}
+
+.builder-modal .webix_el_text input
+{
+    border-radius: 0;
+    border:1px solid #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.builder-modal .webix_el_text  input:focus
+{
+    box-shadow: none;
+    border:1px solid #fff;
+    border-bottom: 1px solid #2196F3;
+}
+
+.builder-modal .webix_el_text input::-webkit-input-placeholder { color: #b3b3b3; font-weight: 400; font-size: 13px; }
+.builder-modal .webix_el_text input:-moz-placeholder           { color: #b3b3b3; font-weight: 400; font-size: 13px; opacity: 1; }
+.builder-modal .webix_el_text input::-moz-placeholder          { color: #b3b3b3; font-weight: 400; font-size: 13px; opacity: 1; }
+.builder-modal .webix_el_text input:-ms-input-placeholder      { color: #b3b3b3; font-weight: 400; font-size: 13px; }
+.builder-modal .webix_el_text input::-ms-input-placeholder     { color: #b3b3b3; font-weight: 400; font-size: 13px; }
+.builder-modal .webix_el_text input::placeholder               { color: #b3b3b3; font-weight: 400; font-size: 13px; }
+
+.builder-modal .btn-ok .webix_el_box
+{
+    padding-left: 2px;
+}
+
+.builder-modal .btn-ok button 
+{
+    background: #ff4081;
+    border-radius: 2px;
+    border: 1px solid #ff4081;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    
+}
+
+
+.builder-modal .btn-cancel .webix_el_box
+{
+    padding-left: 2px;
+}
+
+.builder-modal .btn-cancel button 
+{
+    background: #2196F3;
+    border-radius: 2px;
+    border: 1px solid #2196F3;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    
+}

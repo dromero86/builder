@@ -1,0 +1,270 @@
+{
+	"busy" :
+	{
+		"layout"   : "./ui/views/busy.php",
+		"content"  : [ ]
+	},
+	"help-admin" :
+	{
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/ayuda.php" }
+		]
+	},
+	"help-gomeria" :
+	{
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/ayuda.php" }
+		]
+	},
+	"help-gerencia" :
+	{
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/ayuda.php" }
+		]
+	},
+	"inicio_offline" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 		"file":"./ui/views/_menu/menu.php" },
+			{ "name":"bienvenida", 	"file":"./ui/views/inicio/bienvenida/bienvenida.php" },
+			{ "name":"bienvenida", 	"file":"./ui/views/inicio/buscador/buscador.php" },
+			{ "name":"bienvenida", 	"file":"./ui/views/inicio/servicios/servicios.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"inicio_online" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 		"file":"./ui/views/_menu/menu.php" },
+			{ "name":"bienvenida", 	"file":"./ui/views/inicio/bienvenida/bienvenida.php" },
+			{ "name":"bienvenida", 	"file":"./ui/views/inicio/buscador/buscador.php" },
+			{ "name":"bienvenida", 	"file":"./ui/views/inicio/servicios/servicios.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"registro-usuario" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"mensaje", 			"file":"./ui/views/registro-usuario/registro-usuario.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"registro-recover" :   {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"mensaje", 			"file":"./ui/views/_user_recover_end.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"materiales_offline" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 			"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/lista_user_offline/lista.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"materiales_online" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 			"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/lista_user_online/lista.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"pedidos" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 			"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/carrito/lista.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"servicios_offline" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"servicios",			"file":"./ui/views/servicios/servicios/servicios.php"},
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"servicios_online" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"servicios",			"file":"./ui/views/servicios/servicios/servicios.php"},
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"estilogili_offline" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/estilogili/posts/posts.php" },
+			{ "name":"servicios",			"file":"./ui/views/estilogili/servicios/servicios.php"},
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"estilogili_online" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/estilogili/posts/posts.php" },
+			{ "name":"servicios",			"file":"./ui/views/estilogili/servicios/servicios.php"},
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"estilogili_vista_offline" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/estilogili_post/post_vista/post.php" },
+			{ "name":"servicios",			"file":"./ui/views/estilogili_post/servicios/servicios.php"},
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+
+		]
+	},
+	"estilogili_vista_online" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/estilogili_post/post_vista/post.php" },
+			{ "name":"servicios",			"file":"./ui/views/estilogili_post/servicios/servicios.php"},
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+
+		]
+	},
+	"contacto_offline" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_offline/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"formulario", 				"file":"./ui/views/contacto/contacto/contacto.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"contacto_online" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"nav_user", 	"file":"./ui/views/_topbar_user_online/topbar.php" },
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"formulario", 				"file":"./ui/views/contacto/contacto/contacto.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"ayuda" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"procrear" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"menu", 				"file":"./ui/views/_menu/menu.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/materiales/estilogili/estilogili.php" },
+			{ "name":"lista_materiales",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"registro_paso_1" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"",	"file":"./ui/views/_menu/menu.php" },
+			{ "name":"",	"file":"./ui/views/auth/registro.php" },
+			{ "name":"",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"auth_mensaje" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"",	"file":"./ui/views/_menu/menu.php" },
+			{ "name":"",	"file":"./ui/views/auth/mensaje.php" },
+			{ "name":"",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"login_paso_1" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"",	"file":"./ui/views/_menu/menu.php" },
+			{ "name":"",	"file":"./ui/views/auth/login.php" },
+			{ "name":"",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"recuperar_clave_paso_1" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"",	"file":"./ui/views/_menu/menu.php" },
+			{ "name":"",	"file":"./ui/views/auth/recuperar.php" },
+			{ "name":"",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"recuperar_clave_paso_3" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"",	"file":"./ui/views/_menu/menu.php" },
+			{ "name":"",	"file":"./ui/views/auth/cambio.php" },
+			{ "name":"",	"file":"./ui/views/_footer/footer.php" }
+		]
+	},
+	"modificar-datos-usuario" :  {
+		"layout"   : "./ui/views/_layout.php",
+		"content"  :
+		[
+			{ "name":"",	"file":"./ui/views/_menu/menu.php" },
+			{ "name":"",	"file":"./ui/views/auth/modificar.php" },
+			{ "name":"",	"file":"./ui/views/_footer/footer.php" }
+		]
+	}
+}

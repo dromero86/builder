@@ -1,0 +1,160 @@
+{
+		"_global":
+[
+	{ "name":"app", "value":"Roma Neumáticos"},
+	{ "name":"page", "value":"Roma Neumáticos" }
+],
+	"help-gerencia":
+			[
+				{
+					"name" : "tut"	 ,
+					"value":
+						[
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Ingresar al sistema",
+								"tut_det" : "Cómo ingresar al sistema",
+								"tut_vid" : "img/tutorial/gif/generico/IniciarSesion.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Modificar Datos de Ingreso",
+								"tut_det" : "Cómo modificar mis credenciales de acceso",
+								"tut_vid" : "img/tutorial/gif/generico/ModificarDatos.gif",
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Crear nuevos elementos",
+								"tut_det" : "Valido para Administracion y Gerencia(Administrar usuarios/sucursales). El mecanismo es el mismo.",
+								"tut_vid" : "img/tutorial/gif/Admin/AgregarVehiculo.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Editar y eliminar elementos",
+								"tut_det" : "Valido para Administracion y Gerencia(Administrar usuarios/sucursales). El mecanismo es el mismo.",
+								"tut_vid" : "img/tutorial/gif/Admin/EditarYBorrar.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Como usar el filtro",
+								"tut_det" : "Valido para Administracion y Gerencia(Administrar usuarios). El mecanismo es el mismo.",
+								"tut_vid" : "img/tutorial/gif/Admin/UsoDeFiltro.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Agregar sucursal",
+								"tut_det" : "Como agregar una nueva sucursal y su administrador",
+								"tut_vid" : "img/tutorial/gif/Gerencia/InsertarSucursal.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "informacion del historial del vehiculo",
+								"tut_det" : "Ver informacion completa del vehiculo",
+								"tut_vid" : "img/tutorial/gif/Gerencia/VerVehiculoHistorial.gif" ,
+								"tut_ins" : ""
+							}
+						]
+					}
+				],
+	"help-admin":
+			[
+				{
+					"name" : "tut"	 ,
+					"value":
+						[
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Ingresar al sistema",
+								"tut_det" : "Cómo ingresar al sistema",
+								"tut_vid" : "img/tutorial/gif/generico/IniciarSesion.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Modificar Datos de Ingreso",
+								"tut_det" : "Cómo modificar mis credenciales de acceso",
+								"tut_vid" : "img/tutorial/gif/generico/ModificarDatos.gif",
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Crear nuevos elementos",
+								"tut_det" : "Valido para Administracion y Gerencia(Administrar usuarios/sucursales). El mecanismo es el mismo.",
+								"tut_vid" : "img/tutorial/gif/Admin/AgregarVehiculo.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Editar y eliminar elementos",
+								"tut_det" : "Valido para Administracion y Gerencia(Administrar usuarios/sucursales). El mecanismo es el mismo.",
+								"tut_vid" : "img/tutorial/gif/Admin/EditarYBorrar.gif" ,
+								"tut_ins" : ""
+							},
+							{
+								"tut_img" : "img/stock/m1.jpg",
+								"tut_name": "Como usar el filtro",
+								"tut_det" : "Valido para Administracion y Gerencia(Administrar usuarios). El mecanismo es el mismo.",
+								"tut_vid" : "img/tutorial/gif/Admin/UsoDeFiltro.gif" ,
+								"tut_ins" : ""
+							}
+						]
+					}
+				],
+				"help-gomeria":
+						[
+							{
+								"name" : "tut"	 ,
+								"value":
+									[
+										{
+											"tut_img" : "img/stock/m1.jpg",
+											"tut_name": "Ingresar al sistema",
+											"tut_det" : "Cómo ingresar al sistema",
+											"tut_vid" : "img/tutorial/gif/generico/IniciarSesion.gif" ,
+											"tut_ins" : ""
+										},
+										{
+											"tut_img" : "img/stock/m1.jpg",
+											"tut_name": "Modificar Datos de Ingreso",
+											"tut_det" : "Cómo modificar mis credenciales de acceso",
+											"tut_vid" : "img/tutorial/gif/generico/ModificarDatos.gif",
+											"tut_ins" : ""
+										},
+										{
+											"tut_img" : "img/stock/m1.jpg",
+											"tut_name": "Como ingresar a la orden",
+											"tut_det" : "Adicionalmente se puede ingresar dandole al box en la parte inferior izquierda: Ver Ordenes",
+											"tut_vid" : "img/tutorial/gif/Gomero/GomeriaEntrarItem.gif",
+											"tut_ins" : ""
+										},
+										{
+											"tut_img" : "img/stock/m1.jpg",
+											"tut_name": "Como atender la orden",
+											"tut_det" : "Mediante el uso de checkboxs podes indicar que tareas se realizaron.",
+											"tut_vid" : "img/tutorial/gif/Gomero/GomeriaIniciarOrden.gif",
+											"tut_ins" : ""
+										},
+										{
+											"tut_img" : "img/stock/m1.jpg",
+											"tut_name": "Cambio de cubierta",
+											"tut_det" : "Como se debe cambiar una cubierta por otra",
+											"tut_vid" : "img/tutorial/gif/Gomero/Cambio.gif",
+											"tut_ins" : ""
+										},
+										{
+											"tut_img" : "img/stock/m1.jpg",
+											"tut_name": "Guardar e Imprimir",
+											"tut_det" : "Como guardar e imprimir la orden - Obtener pdf.",
+											"tut_vid" : "img/tutorial/gif/Gomero/GomeriaGuardarEImprimir.gif",
+											"tut_ins" : ""
+										}
+									]
+								}
+							]
+}
